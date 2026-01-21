@@ -1,0 +1,36 @@
+{
+  "name": "@ai-workspace-app/outlines",
+  "version": "0.1.0",
+  "description": "Vue 3 package for managing document outlines",
+  "type": "module",
+  "main": "./dist/app-outlines.umd.js",
+  "module": "./dist/app-outlines.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/app-outlines.es.js",
+      "require": "./dist/app-outlines.umd.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ai-workspace-app/app-outlines.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5174"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "npm:rolldown-vite@7.2.5",
+    "vue": "^3.5.24"
+  }
+}
