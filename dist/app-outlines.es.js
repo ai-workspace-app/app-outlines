@@ -22,11 +22,11 @@ var __plugin_vue_export_helper_default = (e, a) => {
 		},
 		userId: {
 			type: String,
-			default: null
+			default: "4d15c01c-a1f2-454a-a187-db2e51069773"
 		},
 		workspaceId: {
 			type: String,
-			default: null
+			default: "9"
 		}
 	},
 	setup(l) {
@@ -42,7 +42,7 @@ var __plugin_vue_export_helper_default = (e, a) => {
 			u[0] ||= createElementVNode("h2", null, "Coming soon...", -1)
 		]));
 	}
-}, [["__scopeId", "data-v-e87d4289"]]), src_default = { install(e) {
+}, [["__scopeId", "data-v-c223263d"]]), src_default = { install(e) {
 	e.component("Outlines", Outlines_default);
 } };
 export { Outlines_default as Outlines, src_default as default };

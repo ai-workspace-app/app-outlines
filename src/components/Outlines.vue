@@ -24,11 +24,11 @@ const props = defineProps({
   },
   userId: {
     type: String,
-    default: null
+    default: '4d15c01c-a1f2-454a-a187-db2e51069773'
   },
   workspaceId: {
     type: String,
-    default: null
+    default: '9'
   }
 })
 

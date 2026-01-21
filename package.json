@@ -10,7 +10,9 @@
       "import": "./dist/app-outlines.es.js",
       "require": "./dist/app-outlines.umd.js"
     },
-    "./style.css": "./dist/style.css"
+    "./src/components/Outlines.vue": "./src/components/Outlines.vue",
+    "./style.css": "./dist/outlines.css",
+    "./dist/style.css": "./dist/outlines.css"
   },
   "files": [
     "dist",
